@@ -30,7 +30,7 @@ public class Client {
 
 				DatagramPacket request = new DatagramPacket(data,data.length,aHost,serverPort);
 				aSocket.send(request);
-				System.out.println("Sending data");
+				System.out.println("Sending request");
 				
 				DatagramPacket reply = new DatagramPacket(receivedData, receivedData.length);
 				aSocket.receive(reply);
