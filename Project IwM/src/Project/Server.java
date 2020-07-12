@@ -14,7 +14,7 @@ public static void main(String[] args) throws ClassNotFoundException {
     	
     	System.out.println("Server Started");
     	DatagramSocket aSocket = null;
-    	
+ 
       try {
         aSocket = new DatagramSocket(1257);
         byte[] buffer = new byte[1024];
@@ -62,6 +62,5 @@ public static void main(String[] args) throws ClassNotFoundException {
       } finally {
 				aSocket.close();
 			}
-      
     }
 }

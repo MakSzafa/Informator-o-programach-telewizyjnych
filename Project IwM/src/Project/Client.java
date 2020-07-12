@@ -14,21 +14,12 @@ public class Client {
 
 	public static void main(String[] args) throws ClassNotFoundException {
 		
-		/*String programName[];
-		String description[];
-		String schedule[][];*/
-		
 		DatagramSocket aSocket = null;
 		int serverPort = 1257;
 		
 		System.out.println("Client Started");
-		
-		//Channel info = new Channel(1,"15:30");
-		
-		//String hour[] = info.Hour();
+
 		Request object = new Request(1,"15:30",Request.Type.ChannelSchedule);
-		//object.setType(Request.Type.ChannelSchedule);
-		//object.setObject(info);
 		
 		try {
 			
