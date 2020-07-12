@@ -36,7 +36,7 @@ public static void main(String[] args) throws ClassNotFoundException {
 			
 		  
 			case HourChannelSchedule:
-				feedback = new String("Server received and saved object");
+				feedback = "Server received and saved object";
 				break;
 
 			case ChannelSchedule:
