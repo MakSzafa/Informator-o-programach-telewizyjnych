@@ -19,7 +19,7 @@ public class Client {
 		
 		System.out.println("Client Started");
 
-		Request object = new Request(1,"15:30",Request.Type.ChannelSchedule);
+		Request object = new Request(1,"15:00",Request.Type.ChannelSchedule);
 		
 		try {
 			
